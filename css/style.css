@@ -1,0 +1,446 @@
+body {
+    background-color: #111;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: 0;
+}
+
+
+/**/
+
+#myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #ff9a00;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #111;
+    /* Add a dark-grey background on hover */
+}
+
+
+/**/
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #fff;
+}
+
+.mylogo {
+    color: #fff !important;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.mylogo::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 35px;
+    background-color: #ff9a00;
+    bottom: 8px;
+    left: 6em;
+}
+
+.navbar.bg-light {
+    background-color: transparent!important;
+}
+
+.navbar-expand-lg .navbar-collapse a {
+    color: #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.offcanvas {
+    background-color: #111!important;
+}
+
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 1rem 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.offcanvas button,
+.canvas a {
+    color: #fff!important;
+    border: 0;
+}
+
+.offcanvas .offcanvas-body i {
+    display: inline-block;
+    width: 2em;
+    color: #ff9a00;
+}
+
+.offcanvas button {
+    background-color: transparent;
+    font-size: 1.6em;
+}
+
+.offcanvas-body a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    position: relative;
+}
+
+.offcanvas-body a:hover {
+    color: #ff9a00;
+}
+
+.canvas .btn-close {
+    background: none !important;
+}
+
+.offcanvas-body ul {
+    margin: 0;
+    padding: 0;
+}
+
+.offcanvas-body ul li {
+    display: inline-block;
+}
+
+
+/**/
+
+
+/*start landing*/
+
+section.landing {
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+    overflow: hidden;
+}
+
+section.landing .overlay {
+    position: absolute;
+    right: 20%;
+    top: -20%;
+    height: 150%;
+    width: 25%;
+    transform: rotate(25deg);
+    background-color: #ffffff1f;
+}
+
+section .head {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+
+section .head span {
+    display: block;
+    color: #ff9a00;
+    font-size: 30px;
+}
+
+section.landing .img {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    z-index: 1;
+}
+
+section.landing .img img {
+    width: 100%;
+    transition: .5s;
+}
+
+section.landing .discription {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+section.landing .discription h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ff9a00;
+    font-weight: bold;
+}
+
+section.landing .discription p {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.controls span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 27px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    cursor: pointer;
+    background: #000;
+    transition: .5s;
+}
+
+
+/*end landing*/
+
+
+/**/
+
+section.about .prefItem {
+    text-align: center;
+    color: #fff;
+}
+
+section.about .prefItem i {
+    font-size: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+section.about .prefItem i:hover {
+    color: #ff9a00;
+}
+
+section.about .prefItem h6 {
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+/**/
+
+
+/**/
+
+section.products {
+    color: #fff;
+    position: relative;
+    background-color: #000;
+}
+
+section.products::after {
+    content: "products";
+    position: absolute;
+    top: 35%;
+    right: 74%;
+    font-size: 8em;
+    color: #ff9a0017;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+}
+
+section.products .itemFilter {
+    text-align: center;
+}
+
+section.products .itemFilter button {
+    width: 120px;
+    background: #ff9a00;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    margin: 0 3px;
+    font-weight: bold;
+    height: 35px;
+    border-radius: 3px;
+}
+
+section.products .productContain {
+    text-align: center;
+    background: #111;
+    padding: 10px;
+}
+
+section.products img {
+    height: 140px;
+    width: 275px;
+}
+
+section.products .item .itemDetails h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+section.products .item .itemDetails span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+section.about a,
+section.binfits a,
+section.products .item .itemDetails a {
+    background: #ff9a00;
+    display: inline-block;
+    color: #000;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+section.binfits {
+    background: url(../img/contactBG.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+section.binfits .overlay {
+    background-color: #000000d6;
+}
+
+section.binfits .icon {
+    text-align: right;
+}
+
+section.binfits .icon i {
+    color: #000;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ff9a00;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 36px;
+}
+
+.binfitsItems h5 {
+    color: #ff9a00;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.binfitsItems p {
+    color: #fff;
+}
+
+
+/*start contact page*/
+
+
+/*start footer*/
+
+footer {
+    color: #fff;
+}
+
+
+/*end footer*/
+
+section.form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    background: #111;
+    color: #fff;
+}
+
+section.form::after {
+    content: "Contact";
+    position: absolute;
+    top: 35%;
+    right: 74%;
+    font-size: 8em;
+    color: #ff9a0017;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+}
+
+section.myForm p {
+    color: #ccc;
+}
+
+section.myForm .form-group {
+    margin: 7px 0;
+}
+
+section.myForm .form-control {
+    background-color: #000;
+    border-radius: 0;
+    border: 0;
+    color: #fff;
+}
+
+section.myForm .form-control:focus,
+section.myForm .btn:focus {
+    box-shadow: none!important;
+    border-color: #fff;
+}
+
+section.myForm .btn {
+    color: #fff;
+    background-color: #000;
+    border-radius: 0;
+    width: 16em;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: .5s;
+}
+
+section.myForm .btn:hover {
+    background-color: #ff9a00;
+    color: #000;
+}
+
+section.myForm label {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+
+/*end contact page*/

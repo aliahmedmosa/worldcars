@@ -1,0 +1,33 @@
+[{
+        "id": "1",
+        "name": "BMW",
+        "category": "bmw",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "price": "500.000",
+        "src": "img/car1.png"
+    },
+    {
+        "id": "2",
+        "name": "Mercedes",
+        "category": "mercedes",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "price": "700.000",
+        "src": "img/car2.png"
+    },
+    {
+        "id": "3",
+        "name": "Mercedes",
+        "category": "mercedes",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "price": "400.000",
+        "src": "img/car3.png"
+    },
+    {
+        "id": "4",
+        "name": "skoda",
+        "category": "skoda",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+        "price": "50.000",
+        "src": "img/car4.png"
+    }
+]
